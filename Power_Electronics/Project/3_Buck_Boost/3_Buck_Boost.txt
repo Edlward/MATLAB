@@ -1,0 +1,25 @@
+A simulation of the Buck_Boost Circuit:
+
+Default Value:
+
+1. DC Power : 30V
+2. L = 2e-2 H
+3. C = 250e-3 F 
+4. Load : R = 4¦¸
+5. PWM : Frequency :  400Hz 
+         Pulse Width: 50%
+
+  After the investigation of this circuit we know that the output voltage follows D/(D-1), which means that the polar of the output has been inverted, and the output can be both greater or lower than the input.
+
+First Experiment: ( Default )
+
+  When the D = 0.5 we know that the output can be U = -1*Uin = -30V. And because the inevitable voltage drop by the Converter, the altitude of the output can be lower than that we've assumed. Of course, the polar is inverted.
+  Another phenomenon that we should pay attention is that there has a clear period of the inductor current is close to 0 as the time went from 0.5s to 1s, which is because that during this transition the Capacitor is fully-charged that the output average vaule is higher than the input vaule which means that, the Capacitor release its power to the input. And the decreased output can be dealed as a proof.
+
+Second Experiment: ( D = 0.2 )
+
+  As we know under the steady state, the output can be U = -0.25Uin = -7.5V. Contrast with the circumstance when the D = 0.5, we can clearly see that the transition duration is shorter. But the zero duration of the inductor has been elongated.
+
+Third Experiment: ( D = 0.8 )
+
+  On the contrary, when we changed the D to 0.8, the output can be ascented higher than the input. And as we discussed above, the output U = -4*Uin equals to -120V which is corresponding to the experiment consequence. And the zero duration of the inductor can be shorted, which is because the capacitor has not been fully - charged as it is when D = 0.2 or D = 0.5.

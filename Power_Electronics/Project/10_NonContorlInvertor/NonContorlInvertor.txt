@@ -1,0 +1,6 @@
+Non-Contorled Invertor Expriment :
+
+  It is manifest that, if we lower the value of the Capacitor or the Inductor the Fluctuation of the output increase. And so in this expriment, we change the inductor & the capacitor respectively to investigate how the changed value is to change the output in the Non-Contorled Invertor.
+
+
+

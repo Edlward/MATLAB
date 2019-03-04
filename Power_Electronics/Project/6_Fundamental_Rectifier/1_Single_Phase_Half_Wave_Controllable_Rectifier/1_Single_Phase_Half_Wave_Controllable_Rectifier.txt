@@ -1,0 +1,13 @@
+A Single Phase Half-Wave Controllable Rectifier With Several Experiment:
+
+First Experiment :
+
+  Under only a Resistor Load Circumstance, and ¦Ávaries from 0 to 180 degree.
+
+Second Experiment:
+  
+  With a RL Load, the Output Voltage can be under zero which differs from the R Load one. And Also ¦Á varies from 30 to 150 degree.
+
+Third Experiment:
+
+  A RL Load with a Fly-Wheel Diode, the ¦Á is 60 degree. We can clearly see that the Diode forces the output voltage to be nearly zero while the Thyristor is off.

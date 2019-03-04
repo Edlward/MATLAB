@@ -1,0 +1,19 @@
+A simulation of the Buck_Boost(uninverted) Circuit:
+
+Default Value:
+1. DC Power : 28V
+2. Inductor : L1 = 3e-3H, L2 = 1e-3H,
+3. Capacitor: C1 = 1e-6F, C2 = 3e-3F,
+4. Load : R = 14¦¸
+5. PWM : Frequency : 4kHz,Pulse Width : 50%
+  And as the Frequency is high enough, so we have to decrease the simulation's calculation step to 5e-6 which may be fair enough to get the Correct output.
+
+  We've already knew that, for a typical Buck - Boost circuit, the output polar is always inverted. Sometimes it could be a problem especially in some practical circumstance. So a new type of the circuit has been innovated to output a variable voltage which is also capable to be higher or lower than the input.
+
+First Experiment: ( Default )
+
+  As we can see in the Scope, there is no overshoot overall, and the fluctuation of the output can be lower enough to be neglected. These may be the vantage of this circuit, which is because the two Capacitor & two Inductor is functioning as a two stage filter simultaneously. But the magnification is also nolinear.
+
+Second Experiment: ( Vary D )
+
+  Via modulating the D( Duty circle ) we can get a variable output voltage conveniently. And the output voltage polar Must be the same as the input does. So it is concise to put into practicing.

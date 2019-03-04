@@ -1,0 +1,9 @@
+Single_Phase_Full_Wave_Controlable_Rectifier Expriment:
+
+Input Value:
+  U1 within two identical port and a middle Grounding:
+	U2 = 100V, Frequency = 50Hz;
+
+  E = 60V;
+
+The Expriment is quite same as the former expriment that we've done before & the output is exactly identical as the Three_Phase_Fully_Controlled_Bridge_Rectifier does, for whom we will be discussed later. And this current type is not practical which is because it creates a DC component that requires larger Transformer, we choose to skip it.

@@ -1,0 +1,25 @@
+PWM Expriment£º
+
+  Default:
+
+   Carrier Waveform :  Triangular wave
+   Carrier frequency : 1000HZ;
+   Carrier Peak Value : ¡À1V
+   Modulating Waveform :  Sine Wave
+   Modulating Frequency : 200rad/s;
+   Modulating Peak Value : 0.8V;
+
+  We've already know that the PWM output is all unrectified Pulse Series. The output Frequency is identical as the Modulating Waveform does thus which is because PWM mostly used in the invertor. As for the carrier frequency, it determines the output pulse frequency, to say more specificly, is to determine the Period that matters the Inductor & Capacitor. So the output waveform fluctuation Value is about to change.
+  And we can see clearly via next series of the expriment:
+
+First Expriment ( Default Value ):
+
+  According to the theory of the PWM, the two pulses are inverted simultanously while the Carrier & the Modulating Waveform intersect, and we can see this through the Scope.
+
+Second Expriment ( Modulating Frequency 100rad/s; ) :
+
+  The output Pulse' frequency changed while we changed the Modulating frequency, and because of the unchanged Carrier frequency, the output Pulse inverted less frequently. So this may creating problem if we lower the Modulating Frequency that the pulse gets so less that carry too much harmonics which may find difficult to filt.
+
+Third Expriment ( Carrier frequency : 500HZ )
+
+  Comparing with the defaut value, if we lower the Carrier frequency, the pulse gets inverted slower just like what we've mentioned above. So it can be important to choose the preferable Carrier frequency for which can reduce the harmonics in the output and reduce both the Inductor and Capacitor value since the interchange between the input and output is lower!

@@ -1,0 +1,16 @@
+A simulation of the PI - Controled Buck Circuit:
+
+Default Value:
+1. Magnification of P : 40 
+2. Feedback Magnification: a = 1/25;
+3. Ideal Output : D/a  = 0.2/(1/25) = 5V
+4. Noise: ¡À2V
+
+First Experiment: ( Within Default Value & Increased P)
+
+  As we can see in the pics that the output is fluctuating around 5V, but the fluctuation value can be so considerable which may cause lower efficiency of the load. Also, due to the PI control the feedback can be close to zero.
+  A practical approach for decrease the fluctuation value is to increase the magnification of P, but we can find bottleneck with the value of the magnification, which means under no circumstance can we remove the fluctuation just via the process of increasing the the magnification of P.
+
+Second Experiment: ( With A input Duty Cycle D = 0.8 )
+
+  According to what we discussed Above, when the D = 0.8 the output voltage can be 0.8/(1/25) equal to 20V. And of course the result of the simulation correspond to our analysis. And the feedback can be closer to zero rather than the 5V output. And the fluctuation of the output of course can be negligible.

@@ -1,0 +1,15 @@
+Single_Phase_Fully_Controlled_Bridge_Rectifier Expriment:
+
+Input Value :
+	U1 = 100*sqrt(2)V ; Frequency : 50Hz
+	R = 5¦¸;
+	E = 60V
+
+First Series Expriment:( Carry R Load Only )
+
+  According to the distinction of the Resistor, we could know that the waveform of both the R's Voltage & current is quite identical, thus for which we could just use one specific waveform to express the both.
+  So we differ the phase delay( Alpha = 60 & Alpha = 120 Respectively ), what could we get is the different Average value of the output, which means that we could control the output voltage via modulating the Alpha Degree or the Trigger Pulse.
+
+Second Series Expriment:( RL Load )
+
+  For A ideal Inductor, which could continue the output current, shall be within no decreasing & increasing Energy.( Although the Inductor itself may suffer sudden voltage change ) So we could see clearly that the output is becoming continuous and the output Voltage within negative part which is caused by the Big Inductor.

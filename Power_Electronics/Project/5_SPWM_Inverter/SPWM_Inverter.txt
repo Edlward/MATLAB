@@ -1,0 +1,14 @@
+Experiment of the SPMW Controled DC¨CAC Inverter: 
+	
+Default:
+
+1. DC Power : 30V
+2. AC output: 150V,100HZ
+3. Carrier Waveform :  Triangular wave
+   Carrier frequency : 1000HZ;
+   Carrier Peak Value : ¡À1V
+4. Modulating Waveform :  Sine Wave
+   Modulating Frequency : 100HZ;
+   Modulating Peak Value : 0.8V;
+
+  

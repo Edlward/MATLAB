@@ -1,0 +1,27 @@
+A simulation of the Open Loop Boost Circuit:
+
+Default Value :
+
+1. DC Power : 30V
+2. L = 5e-2 H
+3. C = 1e-2 F
+4. Load : R = 40¦¸
+5. PWM Frenquency : 400Hz
+6. Pulse Width : 50%
+
+  According to the Output Regulation: the output voltage is 1/(1-D). Also, the higher vaule of the capacitor which is for filtering the harmonic wave the less fluctuation can we get.
+
+First Experiment:( Default Vaule )
+
+  We can see through the output voltage waveform in the Scope that the vaule of the output voltage is precisely close to 60V which is corresponding with the analysis that we've discussed above.
+  As it is a Open Loop Controled, there can be a massive Overshoot in the output. The substantial reason is that there has a process for Charging the capacitor & the output voltage follows the 1/(1-D) which is not linear. One specific approach to lower the overshoot is to change the control mode to the Closed Loop. The overshoot is not just do harm to the Load but may also cause the MOSFET with lower efficient or even destory the MOSFET. 
+
+Second Experiment:( Lower the Capacitor Value )
+
+  If we lower the Capacitor value as such, we may get a higher flutuation output according to what we've learnt. 
+  After evaluate the capacitor as 1e-4F, we can see clearly that the output voltage varied between 50V to 70V, and has a average value about 60V. So a keypoint to improve the output voltage waveform is that choose the value of the Capacitor wisely.
+
+Third Experiment:( Change the PWM Pulse Width )
+
+  At the beginning we Lower the Pulse Width to 0.2, and the output voltage is close to 37.5V correspondingly. Then we higher the pulse width to 0.8 then the output is a little bit lower than 150V which is because that the inner resistance cause higher voltage drop since the output current has been ascented. And of course the infinite output value could not be gotten even though we change the D to 1.
+
